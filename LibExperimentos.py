@@ -63,4 +63,3 @@ def grafico_vectorestado(v_estado):
     counts = {'1': v_estado[0], '2': v_estado[1], '3': v_estado[2], '4': v_estado[3]}
     plot_histogram(counts)
     plt.show()
-
